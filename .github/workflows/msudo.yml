@@ -1,0 +1,14 @@
+name: Compile Murad's Sudo
+on: [push]
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Compile C Code
+      run: gcc msudo.c -o msudo.exe
+    - name: Upload Executable Artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: msudo-build
+        path: msudo.exe
