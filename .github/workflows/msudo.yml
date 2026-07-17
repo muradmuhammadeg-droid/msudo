@@ -3,10 +3,10 @@ name: Compile and Release Murad's Sudo
 on:
   push:
     tags:
-      - 'v*' # Triggers the script whenever you push a version tag like v1.0.0
+      - 'v1.0.0'
 
 permissions:
-  contents: write # Grants GitHub permission to publish the release file
+  contents: write
 
 jobs:
   build:
