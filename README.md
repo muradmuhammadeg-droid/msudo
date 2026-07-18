@@ -1,2 +1,2 @@
 # msudo
-A recreation of sudo. Windows 8, Windows 8.1, Windows 10.
+A recreation of sudo. Windows 8, Windows 8.1, Windows 10, Windows 11.
